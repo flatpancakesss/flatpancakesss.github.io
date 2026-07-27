@@ -487,3 +487,75 @@ text-align: center;
   width: 100%;          /* w-full */
   z-index: -10;         /* -z-10 */
 }
+
+// Contains stylings for the about page
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
+  gap: 1rem;
+}
+
+.about-post {
+  width: calc(30% - 0.5rem);
+  box-sizing: border-box;
+  border: solid 2px #000000 ;
+}
+
+@media (max-width: 500px) {
+  .about-post {
+    width: 100%;
+  }
+}
+
+.about-post a {
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+.about-header {
+  background-color: #e3e3e300;
+  border-bottom: solid 2px #000000 ;
+}
+
+.about-hover-filter {
+  background: #eae0ff;
+  opacity: 0.0;
+}
+
+.about-header:hover .about-hover-filter{
+  opacity: 0.5;
+}
+
+.about-thumbnail {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 0.5rem;
+}
+
+.about-bg-image {
+  position: absolute;   /* absolute */
+  top: 0;               /* inset-0 */
+  right: 0;             /* inset-0 */
+  bottom: 0;            /* inset-0 */
+  left: 0;              /* inset-0 */
+  object-fit: cover;    /* object-cover */
+  height: 100%;         /* h-full */
+  width: 100%;          /* w-full */
+  z-index: -10;         /* -z-10 */
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
