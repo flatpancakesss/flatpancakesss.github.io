@@ -8,4 +8,6 @@ thumbnail = 'images/GAMES-hyperspace.png'
 
 A simple bullet hell game that I made in 2 days for a school exam when I was about 15 to 16 years old. I had no ability to draw at this time, so I used simple geometric shapes and a mostly monochrome color scheme to create the visuals for the game.
 
-#### Developed sometime in March 2022. No public release planned.
+Actually, no footage nor builds remain of this game, this screenshot is all that I have.
+
+#### Developed sometime in March 2022.
