@@ -6,5 +6,3 @@ thumbnail = 'images/art/thumbnails/26-07-27.png'
 +++
 
 ![alt text](images/art/26-07-27.png)
-
-Collaboration with CH FR.

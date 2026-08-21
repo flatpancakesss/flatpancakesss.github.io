@@ -13,4 +13,4 @@ Hello! This is my personal website, thank you for visiting. There's not much to 
 
 Thank you to [CHFR](https://chfr.link/) for helping me with setup and technical support!
 
-#### Last updated: 2026-07-20. All dates are displayed in YYYY/MM/DD.
+#### Last updated: 2026-08-21. All dates are displayed in YYYY/MM/DD.
