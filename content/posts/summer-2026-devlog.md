@@ -1,5 +1,5 @@
 +++
-date = '2026-08-01T13:18:15Z'
+date = '2026-08-28T13:18:15Z'
 draft = false
 title = 'Summer 2026 Devlog'
 thumbnail = 'images/art/26-08-05.png'
