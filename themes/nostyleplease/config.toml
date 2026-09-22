@@ -35,7 +35,7 @@
 [params]
   favicon = "favicon.ico"
   [params.theme_config]
-    appearance        = "light"
+    appearance        = "dark"
     back_home_text    = "Back"
     date_format       = "2006-01-02"
     isListGroupByDate = false

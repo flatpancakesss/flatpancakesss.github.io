@@ -2,7 +2,7 @@
 date = '2025-10-28T05:42:30+01:00'
 draft = false
 title = 'My contributions for Touhou Fan Game Jam 16'
-thumbnail = 'images/thumb-gamejam-25-10.png'
+thumbnail = 'images/GAMES-kamikami.png'
 +++
 
 Back in early 2024, I had joined up with [Ougi](https://x.com/Ougiikun),  [Redi](https://x.com/redi_rkgk), and [Jwap](https://x.com/jwapptastic) in a group informally known as the 'Flan Appreciation Club'. Together, we made both [Flan and the Highway to Hell](https://jwapobie.itch.io/flan-and-the-highway-to-hell) and [March of the Beast](https://jwapobie.itch.io/march-of-the-beast), which were submissions for Touhou Fan Game Jam 14 and 東方ゲームジャム2024 respectively.

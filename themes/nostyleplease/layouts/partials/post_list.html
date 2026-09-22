@@ -28,30 +28,55 @@
     <ul class="posts-container">
         {{- range $post := $posts -}}
         <li class="post">
-            <div class="post-header">
-                <a class="post-thumbnail" href="{{ .Permalink }}">
-                    {{ if .Params.thumbnail }}
-                        <img src="{{ .Params.thumbnail | relURL }}" class="post-bg-image">
-                    {{ else }}
-                        <div class="post-bg-image noimg-background"></div>
-                    {{ end }}
-                    <div class="post-bg-image hover-filter"></div>
-                    <b> {{ $post.Title }} </b>
-                    <span class="post-date">{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
-                </a>
-            </div>
+
+    <a class="post-link" href="{{ .RelPermalink }}"></a>
+
+    <div class="post-thumbnail">
+
+        {{ if .Params.thumbnail }}
+            <img
+                src="{{ .Params.thumbnail | relURL }}"
+                class="post-image"
+            >
+        {{ else }}
+            <div class="post-image noimg-background"></div>
+        {{ end }}
+
+        <div class="post-image-hover"></div>
+
+    </div>
+
+    <div class="post-content">
+
+        <div class="post-title-row">
+
+            <b>
+                {{ $post.Title }}
+            </b>
+
+            <span class="post-date">
+                {{- ($post.Date | time.Format site.Params.theme_config.date_format) }}
+            </span>
+
+        </div>
+
+        <div class="post-summary-wrapper">
 
             <p class="post-summary">
                 {{ $post.Summary | plainify }}
             </p>
-             {{ if .Truncated }}
-                        <div class="post-gradiant"></div>
-                    {{ end }}
-                    
-                {{ if .Truncated }}
-                    <a class="post-continue" href="{{ .RelPermalink }}">Continue Reading…</a>
-                {{ end }}
-        </li>
+
+        </div>
+
+        {{ if .Truncated }}
+            <span class="post-continue">
+                Continue Reading…
+            </span>
+        {{ end }}
+
+    </div>
+
+</li>
         {{ end }}
         {{- if and .show_more $limit_exceeded }}
             <li><a href="{{ .show_more_url | relURL }}">{{ .show_more_text | default "Show more..." }}</a></li>

@@ -2,6 +2,7 @@
 date = '2025-08-30T21:16:49+01:00'
 draft = false
 title = 'Hello!'
+thumbnail = 'images/hellochat.gif'
 +++
 I've always been interested in the idea of creating my own personal website, but I never looked into it as I thought it would be too difficult and/or expensive.
 
