@@ -2,6 +2,7 @@
 date = '2026-02-16T13:18:15Z'
 draft = false
 title = 'Progress Update + Announcement'
+thumbnail = 'images/laptop.gif'
 +++
 
 Hello again! It's been a while, I've had a very busy few weeks... T-T

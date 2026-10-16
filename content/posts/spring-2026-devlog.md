@@ -2,7 +2,7 @@
 date = '2026-05-26T13:18:15Z'
 draft = false
 title = 'Spring 2026 Devlog'
-thumbnail = 'images/spring2026devlogInesBirthday.png'
+thumbnail = 'images/thumbnails/spring2026devlog.png'
 +++
 
 With the days getting longer and the temperature getting much hotter, it's a clear sign that the seasons are once again changing. With that, I've had a nice idea. I want to write a "spring devlog" and just spend some time to cover everything I had worked on over the last 3 months! 

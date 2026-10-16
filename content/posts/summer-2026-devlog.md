@@ -2,7 +2,7 @@
 date = '2026-08-28T13:18:15Z'
 draft = false
 title = 'Summer 2026 Devlog'
-thumbnail = 'images/summer2026devlog/4rdilla_beako_fanart.png'
+thumbnail = 'images/thumbnails/summer2026devlog.png'
 +++
 
 Hello again! I can't believe its been another 3 months already, where does the time go??
