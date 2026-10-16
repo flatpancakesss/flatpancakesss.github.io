@@ -44,7 +44,6 @@ Some places where I post the things that I made.
 </div>
 
 ## ♡ Contact
-For various reasons, I can not and do not check messages on social media. If you need to contact me for anything you can do so here:
 - Discord: flatpancakesss
 - Email: flatpancakesss.dev@gmail.com
 
