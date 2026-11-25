@@ -6,10 +6,12 @@
     <body a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
         {{- partial "header.html" . -}}
         <main class="page-content" aria-label="Content">
+            <div id="persistent-background"></div>
             <div class="w">
                 {{- block "main" . }}{{- end }}
                 {{ partial "footer.html" }}
             </div>
         </main>
+        
     </body>
 </html>

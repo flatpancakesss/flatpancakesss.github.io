@@ -1,9 +1,101 @@
+
 {{ define "main" }}
 
 <h1>{{ .Title }}</h1>
 
 {{ .Content }}
 
+<!-- Check visitor's previous choice before displaying the gallery -->
+<script>
+(function () {
+    try {
+        const choice = sessionStorage.getItem("artGalleryChoice");
+
+        if (choice === "show") {
+            document.documentElement.classList.add("art-sensitive-visible");
+        } else if (choice === "hide") {
+            document.documentElement.classList.add("art-sensitive-hidden");
+        } else {
+            document.documentElement.classList.add("art-warning-pending");
+        }
+    } catch (e) {
+        document.documentElement.classList.add("art-warning-pending");
+    }
+})();
+</script>
+
+<!-- Content warning popup -->
+<div class="art-warning" id="art-warning"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="art-warning-title">
+
+    <div class="art-warning-box">
+
+        <img
+        src="/images/kasumi-sticker.png"
+        class="art-warning-sticker"
+        alt=""
+    >
+
+        <h2 id="art-warning-title">Notice!</h2>
+
+        <p>
+            Some artwork in this gallery contains mildly suggestive themes and not intended for all ages.
+            Would you like to display these drawings?
+        </p>
+
+        <div class="art-warning-buttons">
+
+            <button id="art-show" type="button">
+                Accept — Show all drawings
+            </button>
+
+            <button id="art-hide" type="button">
+                Decline — Hide sensitive drawings
+            </button>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Gallery -->
 {{ partial "art_list.html" (dict "context" . "section" .Section)}}
+
+<!-- Handle visitor selection -->
+<script>
+(function () {
+    const root = document.documentElement;
+
+    function chooseContent(choice) {
+
+        try {
+            sessionStorage.setItem("artGalleryChoice", choice);
+        } catch (e) {
+            // Still apply the choice for this page.
+        }
+
+        root.classList.remove("art-warning-pending");
+
+        root.classList.remove(
+            "art-sensitive-visible",
+            "art-sensitive-hidden"
+        );
+
+        root.classList.add(
+            "art-sensitive-" + (choice === "show" ? "visible" : "hidden")
+        );
+    }
+
+    document.getElementById("art-show").addEventListener("click", function () {
+        chooseContent("show");
+    });
+
+    document.getElementById("art-hide").addEventListener("click", function () {
+        chooseContent("hide");
+    });
+})();
+</script>
 
 {{ end }}

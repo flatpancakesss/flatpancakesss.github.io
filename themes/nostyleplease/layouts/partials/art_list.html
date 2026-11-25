@@ -27,7 +27,7 @@
 {{ end }}
 <ul class="art-container">
     {{- range $post := $posts -}}
-    <li class="art-post">
+    <li class="art-post" data-sensitive="{{ if $post.Params.sensitive }}true{{ else }}false{{ end }}">
         <div class="art-header">
             <a class="art-thumbnail" href="{{ .Permalink }}">
                 {{ if .Params.thumbnail }}

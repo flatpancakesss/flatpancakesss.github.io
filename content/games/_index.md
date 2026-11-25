@@ -5,8 +5,8 @@ draft = false
 limit = 10
 +++
 
-> Coming Soon! Please wait patiently.
+## ♡ Original Work
 
-I am currently working on development of my first ever major game project! However, we are still in the early days of development and there's ready nothing to be publicly shown just yet.  
+> Currently in development! Please wait patiently.
 
-In the meantime, I've compiled a collection of my smaller game development projects, consisting almost entirely of Touhou Game Jam submissions that I developed with friends on my spare time during my school years. These are just some simple quick projects that can be played in your browser, no downloads are required.
+## ♡ Collab Work

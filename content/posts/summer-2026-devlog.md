@@ -76,8 +76,6 @@ Now that the prototype combat system is nearly functional, gameplay programming 
 
 This isn't to say that gameplay programming will be halted entirely, there's still a lot of work that can be done in terms of general polish, and features outside of the main story mode. I'll probably be working on the main progression mechanics of the Abyss mode as it's a mode based more on the gameplay than the story, so there's still a lot I can do there.
 
-Music production is also likely to begin soon, so that the game's world can be fleshed out with an original soundtrack. Production of the music isn't handled by me directly, its commissioned work that I'm paying for out of my own pocket. The composer is super talented and I can't wait to work with them to enhance the game!
-
 If I cant think of a name by the time of the next devlog, I'll come up with a simple temporary working title for the game. Just saying "my game", "my OC game" over and over is getting really tedious, and I'd love to have an actual NAME to refer to the game by... Oh well, I'll come up with something for next time.
 
 Development progress on the game is going at an incredible rate! This game didnt even exist earlier this year and now its really beginning to take shape, I can't wait to share the story and gameplay with you all. Within the coming weeks I will be distributing a prototype to my friends for playtesting purposes. 

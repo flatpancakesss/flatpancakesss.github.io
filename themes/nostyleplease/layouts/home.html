@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="homepage">
+
+    {{ partial "home_header.html" . }}
+
+    {{ partial "home_navigation.html" . }}
+
+    <div class="home-layout">
+
+        {{ partial "home_sidebar.html" . }}
+
+        {{ partial "home_feed.html" . }}
+
+    </div>
+
+    {{ partial "home_footer.html" . }}
+
+</div>
+
+{{ end }}
